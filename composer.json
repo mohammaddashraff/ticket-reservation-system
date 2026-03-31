@@ -1,0 +1,22 @@
+{
+  "name": "mohammadashraf/ticket-reservation-system",
+  "description": "PHP domain layer for a ticket reservation system (users, passengers, companies, flights, and bookings).",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Users\\": "src/Users/",
+      "Flight\\": "src/Flight/",
+      "Connection\\": "src/Connection/"
+    }
+  },
+  "scripts": {
+    "lint": "find src -name '*.php' -print0 | xargs -0 -n1 php -l",
+    "check": [
+      "@lint"
+    ]
+  }
+}

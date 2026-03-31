@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Composer
+/vendor/
+composer.lock
+
+# Runtime / uploads
+/uploads/
+/storage/
+/tmp/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# PHPUnit / coverage
+.phpunit.result.cache
+coverage/
+
+# Misc
+*.swp
+*.swo
